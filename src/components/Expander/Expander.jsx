@@ -11,7 +11,7 @@ import publicShareImage from '../../images/publicShare.png';
 
 import './Expander.css';
 
-export const Expander = ({ peopleData, groupData }) => {
+export const Expander = ({ peopleData, groupData, closeWidget }) => {
     // Parent component
     // SPOC for other children needing global person and group data.
     // Updations and stuff take place here through callbacks from child components.
@@ -61,7 +61,7 @@ export const Expander = ({ peopleData, groupData }) => {
     }
 
     return (
-        <div className="expander">
+        <div className="expander" onKeyDown={(e) => e.key === 'Escape' ? closeWidget(e) : null}>
             <div className="link-container">
                 <img src={publicShareImage} className="link-image"></img>
                 <div className="link-content">
@@ -110,7 +110,8 @@ Expander.propTypes = {
             id: PropTypes.string.isRequired,
             name: PropTypes.string.isRequired,
         }).isRequired
-    ).isRequired
+    ).isRequired,
+    closeWidget: PropTypes.func.isRequired,
 }
 
 export default Expander;

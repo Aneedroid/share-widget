@@ -31,7 +31,7 @@ export const ShareWidget = ({ peopleData, groupData }) => {
             <div>Share</div>
             <img src={vector} />
         </div>
-        { showModal ? <Expander peopleData={peopleData} groupData={groupData} />: null}
+        { showModal ? <Expander peopleData={peopleData} groupData={groupData} closeWidget={onClickHandler}/>: null}
     </div>
     );
 }
