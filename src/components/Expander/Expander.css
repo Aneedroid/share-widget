@@ -1,0 +1,99 @@
+/* TODO: Revisit px/rem ambiguity */
+
+.expander {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32rem;
+    min-height: 16rem;
+    border: 1px solid snow;
+    background: #FFFFFF;
+    align-items: center;
+    box-shadow: 0.5px 0.5px 12px #aaaaaa;
+    margin-top: 0.25rem;
+    border-radius: 0.5rem;
+}
+
+.expander:hover {
+    cursor: default;
+}
+
+.invite-container {
+    display: flex;
+    flex-direction: row;
+    width: 30rem;
+    padding: 0 1rem;
+    flex-basis: 10%;
+}
+
+.invite-content {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    width: 26rem;
+    height: 2.5rem;
+    background: #FFFFFF;
+    border: 1px solid #6366F1;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.invite-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 2.5rem;
+    background: #F9FAFB;
+    color: black;
+    border: 1px solid #D1D5DB;
+    border-radius: 0.25rem;
+    box-shadow: 0px 1px 2px #aaaaaa;
+    text-align: center;
+}
+
+.invite-content:hover, .invite-button:hover {
+    cursor: pointer;
+}
+
+.recent-tiles {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    padding: 0 1rem;
+}
+
+.link-container {
+    display: flex;
+    height: 2rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.link-image {
+    border-radius: 1rem;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.75rem;
+    margin-left: 1rem;
+}
+
+.link-toggle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 8rem;
+    transform: scale(0.75);
+}
+
+.invite-and-recents {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;;
+    width: 100%;
+    background: #FFFFFF;
+    border-top: 1px solid #E5E7EB;
+    border-bottom: 1px solid #E5E7EB;
+    padding: 1rem 0;
+    flex-basis: 80%;
+}

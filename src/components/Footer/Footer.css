@@ -1,0 +1,32 @@
+.share-container {
+    display: flex;
+    height: 2rem;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.share-image {
+    /* border-radius: 1rem; */
+    width: 2rem;
+    height: 2rem;
+    transform: scale(0.5);
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.share-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+.share-copy-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-copy-content:hover {
+    cursor: pointer;
+}

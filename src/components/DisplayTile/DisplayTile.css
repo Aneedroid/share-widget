@@ -1,0 +1,55 @@
+.display-tile {
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.display-tile:hover {
+    background: #F3F4F6;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.avatar {
+    display: flex;
+    flex-basis: 5%;
+    border-radius: 1rem;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.75rem;
+}
+
+.access {
+    margin-left: 12rem;
+    display: flex;
+    height: 1rem;
+}
+
+.display-tile-access {
+    display: flex;
+    flex-basis: 30%;
+}
+
+.title-container {
+    display: flex;
+    flex-basis: 65%;
+    flex-direction: column;
+}
+
+.custom-avatar {
+    display: flex;
+    border-radius: 1rem;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.75rem;
+    background: #6B7280;
+    border-radius: 6px;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-title {
+    font-size: 0.75rem;
+}

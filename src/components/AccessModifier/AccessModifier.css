@@ -1,0 +1,68 @@
+.access-modifier {
+    display: flex;
+    width: 8rem;
+    position: relative;
+    font-size: 0.8rem;
+}
+
+.access-modifier:hover {
+    box-shadow: 0px 1px 2px #F3F4F6;
+    background-color: #F3F4F6;
+    cursor: pointer;
+}
+
+.access-dd-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    top: 10%;
+    z-index: 1;
+}
+
+.access-dd-title {
+    display: flex;
+    margin-right: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.access-dd-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg) scale(1);
+}
+
+.access-dd-image:hover {
+    cursor: pointer;
+}
+
+.access-dd-list {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,1%);
+    z-index: 99;
+    box-shadow: 0.5px 0.5px 12px #aaaaaa;
+}
+
+.access-dd-item {
+    width: 15rem;
+    height: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0;
+    background-color: white;
+}
+
+.access-dd-item:hover {
+    box-shadow: 0px 1px 2px #F3F4F6;
+    background-color: #F3F4F6;
+    cursor: pointer;
+}
+
+.danger {
+    color: red;
+}
