@@ -23,6 +23,9 @@
 ## Development
 
 ```
+// node version - 16.15.1
+// npm version - 8.11.0
+
 npm install
 npm build-storybook
 npm storybook
